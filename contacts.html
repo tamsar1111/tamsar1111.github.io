@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <svg class="preloader-custom">
+          <g>
+            <path d="M 50,100 A 1,1 0 0 1 50,0"></path>
+          </g>
+          <g>
+            <path d="M 50,75 A 1,1 0 0 0 50,-25"></path>
+          </g>
+          <defs>
+            <lineargradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#f09381;stop-opacity:1"></stop>
+              <stop offset="100%" style="stop-color:#ed806b;stop-opacity:1"></stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <div class="page">
+      <header class="section page-header">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="8px" data-xl-stick-up-offset="8px" data-xxl-stick-up-offset="8px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-244x46.png" alt="" width="122" height="23" loading="lazy"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-service.html">Single service</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="news.html">News</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-post.html">Single post</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-collapse"><a class="btn btn-primary btn-sm rd-navbar-button" href="#booking" data-bs-toggle="modal">Book now</a></div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="bg-primary-light">
+        <!-- Breadcrumbs-->
+        <section class="breadcrumbs-custom">
+          <div class="container">
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.html">Home</a></li>
+              <li class="active">Contacts</li>
+            </ul>
+          </div>
+        </section>
+        <!-- Contacts-->
+        <section class="section section-lg">
+          <div class="container">
+            <h2 class="text-center">Contact with Us</h2>
+            <div class="row row-40 row-offset-2 justify-content-between align-items-center">
+              <div class="col-md-6">
+                <!--Please, add the data attribute data-key="YOUR_API_KEY" in order to insert your own API key for the Google map.-->
+                <!--Please note that YOUR_API_KEY should replaced with your key.-->
+                <!--Example: <div class="google-map-container" data-key="YOUR_API_KEY">-->
+                <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
+                  <div class="google-map"></div>
+                  <ul class="google-map-markers">
+                    <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="contact-box">
+                  <div class="contact-box-title title-small">Visit Us:</div>
+                  <div class="contact-box-list h4">
+                    <div class="contact-box-item"></div>2099 Walnut, <br> Hill Ln undefined Lafayette, California 55262
+                  </div>
+                </div>
+                <div class="contact-box">
+                  <div class="contact-box-title title-small">Visit Us:</div>
+                  <div class="contact-box-list h4">
+                    <div class="contact-box-item"><a href="tel:#">+1 3789-578-913</a></div>
+                    <div class="contact-box-item"><a href="mailto:#">email@example.com</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="section footer-classic context-dark svg-progress-section">
+        <div class="svg-progress svg-progress-4">
+          <svg width="478" height="600" viewBox="0 0 478 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="svg-progress-path" d="M-114.072 18.6214C-115.669 42.5101 -27.7677 -30.4064 39.6571 18.6216C147.237 96.8487 57.8784 330.372 106.653 382.121C155.428 433.87 229.98 332.169 261.777 402.119C313.133 515.098 238.994 587.676 334.392 699.073C410.711 788.191 461.672 802.937 477.612 799.171" stroke-width="2"></path>
+          </svg>
+        </div>
+        <div class="svg-progress svg-progress-5">
+          <svg width="469" height="652" viewBox="0 0 469 652" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="svg-progress-path" d="M785.669 586.936C780.591 563.539 716.307 657.937 637.946 629.488C512.916 584.095 377.443 713.88 295.766 608.031C224.925 516.225 368.27 380.871 318.354 322.456C237.732 228.107 288.885 137.843 166.38 57.204C68.3755 -7.30708 15.3241 -7.37149 1.04892 0.660182" stroke-width="2"></path>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+              <h3>Love 10% Off Your <br>First Visit?</h3>
+              <p>Join us and we will send you a great discount code for a 10% discount on your first purchase.</p>
+              <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <input class="form-input" id="subscribe-form-email" type="email" name="email" data-constraints="@Email @Required">
+                  <label class="form-label" for="subscribe-form-email">Your E-mail</label>
+                  <button class="form-link" type="submit">Send now<span class="form-link-icon icomoon-arrow-right-long"></span></button>
+                </div>
+                <div class="checkbox small">
+                  <input type="checkbox" id="check1"/>
+                  <label for="check1">Your data will not be transferred to third parties.
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row footer-row-1 justify-content-center">
+            <div class="col-xs-6 col-md-5 col-lg-4">
+              <div class="title-small footer-title">Working hours</div>
+              <div class="footer-info">
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Monday</div>
+                  <div class="footer-info-text">8:00am – 7:00pm</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Tuesday</div>
+                  <div class="footer-info-text">8:00am – 7:00pm</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Wednesday</div>
+                  <div class="footer-info-text">8:00am – 7:00pm</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Thursday</div>
+                  <div class="footer-info-text">8:00am – 7:00pm</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Friday</div>
+                  <div class="footer-info-text">8:00am – 7:00pm</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Saturday</div>
+                  <div class="footer-info-text">Closed</div>
+                </div>
+                <div class="footer-info-item">
+                  <div class="footer-info-title">Sunday</div>
+                  <div class="footer-info-text">Closed</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-5 col-md-4 col-lg-3 offset-sm-1">
+              <div class="title-small footer-title">Contacts</div>
+              <div>2099 Walnut, <br> Hill Ln undefined Lafayette, California 55262
+              </div>
+              <div class="footer-list">
+                <div class="footer-list-item h5"><a class="link-inherit" href="tel:#">+1 3789-578-913</a></div>
+                <div class="footer-list-item"><a class="link-inherit" href="mailto:#">email@example.com</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-20 footer-row-2 justify-content-between align-items-center">
+            <div class="col-auto">
+              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Sadhara</span><span>. All Rights Reserved</span></p>
+            </div>
+            <div class="col-auto">
+              <div class="list-social"><a class="list-social-icon link-contrast icomoon-facebook" href="#"></a><a class="list-social-icon link-contrast icomoon-twitter" href="#"></a><a class="list-social-icon link-contrast icomoon-instagram" href="#"></a><a class="list-social-icon link-contrast icomoon-youtube" href="#"></a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Modal-->
+      <div class="modal modal-custom fade" id="booking">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button class="btn-close icomoon-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <h3 class="modal-title text-center">Book an Appointment</h3>
+              <form class="rd-mailform text-start" data-form-output="form-output-global" data-form-type="order" method="post" action="bat/rd-mailform.php">
+                <div class="row row-30">
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="booking-name">Name</label>
+                      <input class="form-input" id="booking-name" type="text" name="name" data-constraints="@Required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="booking-last-name">Last Name</label>
+                      <input class="form-input" id="booking-last-name" type="text" name="last-name" data-constraints="@Required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="booking-phone">Phone</label>
+                      <input class="form-input" id="booking-phone" type="text" name="phone" data-constraints="@Required @Numeric">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="booking-email">E-Mail</label>
+                      <input class="form-input" id="booking-email" type="email" name="email" data-constraints="@Required @Email">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <select class="form-input" name="select" data-constraints="@Required" data-placeholder="Select classes">
+                        <option label="placeholder"></option>
+                        <option>Stretching Yoga</option>
+                        <option>Body Balance</option>
+                        <option>Meditation Yoga</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="booking-message">Message</label>
+                      <textarea class="form-input" id="booking-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <div class="checkbox small">
+                        <input type="checkbox" id="book-check"/>
+                        <label for="book-check">I agree to the Privacy Policy and Terms of Use, and want to receive news.
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-button text-center text-lg-start">
+                      <button class="btn btn-primary" type="submit">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
